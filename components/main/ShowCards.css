@@ -1,0 +1,19 @@
+.custom-card{
+    width: 250px;
+}
+.custom-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.image-block {
+    width: 240px;
+    height: 200px;
+    background-color: rgb(202, 202, 202);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-container {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center; /* Center vertically */
+}
