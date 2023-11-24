@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import './App.css'
-import NavbarComponent from './components/header/Navbar'
-import MainContent from './components/MainContent'
-import Loggin from './components/welcome_page/Loggin';
+import NavbarComponent from '../components/header/Navbar'
+import MainContent from '../components/MainContent'
+import Loggin from '../components/welcome_page/Loggin';
 function Home() {
     return (
         <div className='Home'>
